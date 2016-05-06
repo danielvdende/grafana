@@ -28,7 +28,7 @@ var (
 	version   string = "v1"
 	// deb & rpm does not support semver so have to handle their version a little differently
 	linuxPackageVersion   string = "v1"
-	linuxPackageIteration string = ""
+	linuxPackageIteration string = "2"
 	race                  bool
 	workingDir            string
 	binaries              []string = []string{"grafana-server", "grafana-cli"}
